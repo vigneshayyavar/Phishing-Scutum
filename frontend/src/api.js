@@ -2,10 +2,8 @@ import axios from 'axios';
 
 export const api = axios.create({
   baseURL:
-    import.meta.env.VITE_API_URL ||
-    (import.meta.env.DEV
-      ? 'http://localhost:5000/api'
-      : 'https://phishing-scutum.onrender.com/api'),
+  import.meta.env.VITE_API_URL ||
+  'https://phishing-scutum.onrender.com/api',
   timeout: 65000,
 });
 
