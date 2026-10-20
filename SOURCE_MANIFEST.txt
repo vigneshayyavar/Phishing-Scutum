@@ -1,0 +1,19 @@
+Phishing Scutum full JavaScript conversion
+
+Backend source files converted from TypeScript to JavaScript:
+backend/src/config/db.js
+backend/src/middleware/auth.js
+backend/src/models/Company.js
+backend/src/models/Report.js
+backend/src/models/Scan.js
+backend/src/models/User.js
+backend/src/routes/adminRoutes.js
+backend/src/routes/authRoutes.js
+backend/src/routes/companyRoutes.js
+backend/src/routes/reportRoutes.js
+backend/src/routes/scanRoutes.js
+backend/src/server.js
+backend/src/services/batchService.js
+backend/src/services/logoService.js
+backend/src/services/riskService.js
+backend/src/services/storage.js
